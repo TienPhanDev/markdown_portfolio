@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/index.css';
+import "../styles/index.css"
 import PropTypes from 'prop-types';
 import Head from 'next/head';
 import { ThemeProvider } from '../components/themeContext';
