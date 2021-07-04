@@ -1,27 +1,26 @@
-import 'nextra-theme-blog/style.css'
-import Head from 'next/head'
+import React from 'react';
+import '../styles/index.css';
+import PropTypes from 'prop-types';
+import Head from 'next/head';
+import { ThemeProvider } from '../components/themeContext';
 
-import '../styles/main.css'
-
-export default function Nextra({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <React.Fragment>
       <Head>
-        <link
-          rel="alternate"
-          type="application/rss+xml"
-          title="RSS"
-          href="/feed.xml"
-        />
-        <link
-          rel="preload"
-          href="/fonts/Inter-roman.latin.var.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
       </Head>
-      <Component {...pageProps} />
-    </>
-  )
+      <ThemeProvider>
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </React.Fragment>
+  );
 }
+
+MyApp.propTypes = {
+  Component: PropTypes.elementType.isRequired,
+  pageProps: PropTypes.object.isRequired,
+};

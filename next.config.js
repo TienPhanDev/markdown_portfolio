@@ -1,2 +1,10 @@
-const withNextra = require('nextra')('nextra-theme-blog', './theme.config.js')
-module.exports = withNextra()
+require('dotenv').config()
+
+const withImages = require('next-images');
+
+module.exports = withImages();
+module.exports = {
+  future: {
+    webpack5: true,
+  }
+}
