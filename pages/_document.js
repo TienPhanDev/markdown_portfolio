@@ -71,7 +71,7 @@ export default class MyDocument extends Document {
           crossOrigin="anonymous"
         />
       </Head>
-      <body>
+      <body className="bg-gray-100 dark:bg-gray-800">
         <Main />
         <NextScript />
       </body>

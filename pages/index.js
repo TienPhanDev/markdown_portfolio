@@ -37,7 +37,7 @@ export default function Landing() {
               </div>
               <div className="hidden md:flex items-center text-lg uppercase">
                 <a
-                  href="/background"
+                  href="/about"
                   className="text-lg mx-5 text-white cursor-pointer hover:text-gray-300"
                 >
                   About
@@ -66,15 +66,16 @@ export default function Landing() {
             <h1 className="font-extrabold text-7xl text-center sm:text-8xl text-white leading-tight mt-4">
               Tien Phan
             </h1>
+            <p className="text-gray-300">(excuse the current construction 👷)</p>
             <a
               href="https://www.linkedin.com/in/tien-phan-dc/"
-              className="block hover:bg-gray-900 py-3 px-4 text-lg text-white font-bold uppercase mt-10 dark:text-gray-600 bg-gray-900"
+              className="block hover:bg-gray-900 py-3 px-4 text-lg text-gray-700 font-bold uppercase mt-10 dark:text-gray-100 bg-gray-900"
             >
               connect with me
             </a>
           </div>
         </div>
-        <LandingFooter/>
+        <LandingFooter />
       </div>
     </>
   );

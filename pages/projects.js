@@ -5,6 +5,10 @@ export default function Projects() {
     <>
       <SimpleHeader />
       <section className="bg-white py-8">
+          <div className="flex justify-center">
+            <h1 className="text-3xl">Portfolio</h1>
+            <h4 className="text-3xl">(Updates coming soon!)</h4>
+          </div>
         <div className="w-5/6 max-w-lg ml-auto mr-auto mt-8 mb-8">
           <div className="flex flex-wrap -mx-6 -my-6">
             <div className="w-full sm:w-1/2 px-6 py-6">
@@ -26,18 +30,17 @@ export default function Projects() {
                   <line x1="10" y1="12" x2="14" y2="12" />
                 </svg>
               </div>
-              <h3 className="text-3xl sm:text-4xl font-semibold tracking-tighter leading-none mb-3">
-                This is a small heading
+              <h3 className="text-2xl sm:text-3xl font-semibold tracking-tighter leading-none mb-3">
+                HealthChecker
               </h3>
               <p className="text-lg sm:text-xl leading-normal text-gray-700 mb-8">
-                If you dont plan to use the shadow utilities in your project,
-                you can disable them entirely.
+                Built with React & Rails
               </p>
               <a
-                className="text-lg leading-normal text-blue-500 hover:text-blue-600 no-underline"
-                href="/"
+                className="text-md uppercase hover:underline leading-normal text-blue-500 hover:text-blue-600 no-underline"
+                href="https://github.com/TienPhanDev/HealthCheck"
               >
-                Link to something
+                Link to demo and repo
               </a>
             </div>
             <div className="w-full sm:w-1/2 px-6 py-6">
@@ -63,18 +66,17 @@ export default function Projects() {
                   <line x1="16.62" y1="12" x2="10.88" y2="21.94" />
                 </svg>
               </div>
-              <h3 className="text-3xl sm:text-4xl font-semibold tracking-tighter leading-none mb-3">
-                This is a small heading
+              <h3 className="text-2xl sm:text-3xl font-semibold tracking-tighter leading-none mb-3">
+                ML Modeling
               </h3>
               <p className="text-lg sm:text-xl leading-normal text-gray-700 mb-8">
-                If you dont plan to use the shadow utilities in your project,
-                you can disable them entirely.
+                Built with React & Python
               </p>
               <a
-                className="text-lg leading-normal text-blue-500 hover:text-blue-600 no-underline"
-                href="/"
+                className="text-lg uppercase hover:underline leading-normal text-blue-500 hover:text-blue-600 no-underline"
+                href="https://machine-learning-modeling.vercel.app/"
               >
-                Link to something
+                Link to demo and repo
               </a>
             </div>
           </div>
@@ -103,17 +105,16 @@ export default function Projects() {
                 </svg>
               </div>
               <h3 className="text-3xl font-semibold tracking-tighter leading-none mb-3">
-                This is a small heading
+                e.Create
               </h3>
               <p className="text-lg leading-normal text-gray-700 mb-8">
-                If you dont plan to use the shadow utilities in your project,
-                you can disable them entirely by setting the option.
+                Built with React & Rails
               </p>
               <a
                 className="text-lg leading-normal text-blue-500 hover:text-blue-600 no-underline"
                 href="/"
               >
-                Link to something
+                View demo
               </a>
             </div>
             <div className="w-full sm:w-1/2 lg:w-1/4 px-6 py-6">
@@ -140,17 +141,16 @@ export default function Projects() {
                 </svg>
               </div>
               <h3 className="text-3xl font-semibold tracking-tighter leading-none mb-3">
-                This is a small heading
+                Game Mania
               </h3>
               <p className="text-lg leading-normal text-gray-700 mb-8">
-                If you dont plan to use the shadow utilities in your project,
-                you can disable them entirely by setting the option.
+                Vanilla JS Hobby Site
               </p>
               <a
                 className="text-lg leading-normal text-blue-500 hover:text-blue-600 no-underline"
                 href="/"
               >
-                Link to something
+                view demo
               </a>
             </div>
             <div className="w-full sm:w-1/2 lg:w-1/4 px-6 py-6">
@@ -177,17 +177,16 @@ export default function Projects() {
                 </svg>
               </div>
               <h3 className="text-3xl font-semibold tracking-tighter leading-none mb-3">
-                This is a small heading
+                Ambulance Racer
               </h3>
               <p className="text-lg leading-normal text-gray-700 mb-8">
-                If you dont plan to use the shadow utilities in your project,
-                you can disable them entirely by setting the option.
+                Ruby on Rails webapp
               </p>
               <a
                 className="text-lg leading-normal text-blue-500 hover:text-blue-600 no-underline"
                 href="/"
               >
-                Link to something
+                view demo
               </a>
             </div>
             <div className="w-full sm:w-1/2 lg:w-1/4 px-6 py-6">
@@ -214,17 +213,16 @@ export default function Projects() {
                 </svg>
               </div>
               <h3 className="text-3xl font-semibold tracking-tighter leading-none mb-3">
-                This is a small heading
+                Hot Eats App
               </h3>
               <p className="text-lg leading-normal text-gray-700 mb-8">
-                If you dont plan to use the shadow utilities in your project,
-                you can disable them entirely by setting the option.
+                Consumes Yelp API
               </p>
               <a
                 className="text-lg leading-normal text-blue-500 hover:text-blue-600 no-underline"
                 href="/"
               >
-                Link to something
+                view demo
               </a>
             </div>
           </div>
@@ -235,44 +233,40 @@ export default function Projects() {
         <div className="flex flex-wrap -mx-6 -my-6">
           <div className="w-full sm:w-1/2 px-6 py-6">
             <h3 className="text-xl font-semibold leading-tight mb-3 text-black text-opacity-50 dark:text-white">
-              Can I use these templates for free?
+              Title
             </h3>
             <p className="text-lg leading-normal text-gray-700 mb-8 text-opacity-50 dark:text-white">
-              Yes! These templates are open-source so you can copy, paste and
-              edit them any way you see fit.
+              content
             </p>
           </div>
           <div className="w-full sm:w-1/2 px-6 py-6">
             <h3 className="text-xl font-semibold leading-tight mb-3 text-black text-opacity-50 dark:text-white">
-              Can I use these templates for free?
+              Title
             </h3>
             <p className="text-lg leading-normal mb-8 text-black text-opacity-50 dark:text-white">
-              Yes! These templates are open-source so you can copy, paste and
-              edit them any way you see fit.
+              content
             </p>
           </div>
           <div className="w-full sm:w-1/2 px-6 py-6 text-black text-opacity-50 dark:text-white">
             <h3 className="text-xl font-semibold leading-tight mb-3 text-black text-opacity-50 dark:text-white">
-              Can I use these templates for free?
+              Title
             </h3>
             <p className="text-lg leading-normal text-gray-700 mb-8 text-opacity-50 dark:text-white">
-              Yes! These templates are open-source so you can copy, paste and
-              edit them any way you see fit.
+              content
             </p>
           </div>
           <div className="w-full sm:w-1/2 px-6 py-6 text-black text-opacity-50 dark:text-white">
             <h3 className="text-xl font-semibold leading-tight mb-3 text-black text-opacity-50 dark:text-white">
-              Can I use these templates for free?
+              Title
             </h3>
             <p className="text-lg leading-normal text-gray-700 mb-8 text-opacity-50 dark:text-white">
-              Yes! These templates are open-source so you can copy, paste and
-              edit them any way you see fit.
+              content
             </p>
           </div>
         </div>
       </div>
-      <footer className="bg-gray-100 py-8 hover:underline dark:bg-gray-800">
-        <div className="flex flex-col-reverse text-md md:flex-row md:items-center md:justify-center px-8 text-gray-100 dark:text-gray-100 hover:underline ">
+      <footer className="bg-gray-200 py-8 hover:underline dark:bg-gray-800">
+        <div className="flex flex-col-reverse text-md md:flex-row md:items-center md:justify-center px-8 text-gray-800 dark:text-gray-100 hover:underline ">
           <a href="https://www.github.com/tienphandev">
             All Rights Reserved &copy; Tien Phan 2021
           </a>
