@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
-import Toggle from '../components/themeToggle';
 import LandingFooter from '../components/landingFooter';
 
 export default function Landing() {
@@ -43,7 +42,7 @@ export default function Landing() {
                   About
                 </a>
                 <a
-                  href="/works"
+                  href="/projects"
                   className="text-lg mx-5 text-white cursor-pointer hover:text-gray-300"
                 >
                   Portfolio
@@ -55,9 +54,9 @@ export default function Landing() {
                   Blog
                 </a>
               </div>
-              <div>
+              {/* <div>
                 <Toggle className="absolute right-0 top-0 mr-4 mt-4 md:mr-6 md:mt-6" />
-              </div>
+              </div> */}
             </div>
           </nav>
         </header>
