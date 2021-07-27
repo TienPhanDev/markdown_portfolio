@@ -65,7 +65,7 @@ export default function Landing() {
             <p className="text-gray-300">(excuse the current construction 👷)</p>
             <a
               href="https://www.linkedin.com/in/tien-phan-dc/"
-              className="block px-4 py-3 mt-10 text-lg font-bold text-gray-100 uppercase bg-gray-900 hover:text-gray-400 dark:text-gray-700"
+              className="block px-4 py-3 mt-10 text-lg font-bold text-gray-100 uppercase bg-gray-900 hover:text-gray-400"
             >
               connect with me
             </a>
